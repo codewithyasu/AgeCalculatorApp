@@ -1,0 +1,13 @@
+{
+  "name": "html-tailwind-starter",
+  "version": "1.0.0",
+  "description": "A minimal HTML + Tailwind CSS starter (CDN and npm-ready).",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/output.css --minify",
+    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+   "tailwindcss": "^3.4.13"
+
+  }
+}
